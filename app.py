@@ -25,13 +25,30 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Display image after config and styles
+# Stylized title using markdown + HTML
+st.markdown("""
+    <div style='text-align: center; font-size: 36px; font-weight: bold; color: #FFFFFF; margin-top: 20px;'>
+        🔮 EV Adoption Forecaster for a County in Washington State
+    </div>
+""", unsafe_allow_html=True)
+
+# Welcome subtitle
+st.markdown("""
+    <div style='text-align: center; font-size: 22px; font-weight: bold; padding-top: 10px; margin-bottom: 25px; color: #FFFFFF;'>
+        Welcome to the Electric Vehicle (EV) Adoption Forecast tool.
+    </div>
+""", unsafe_allow_html=True)
+
+# Image
 st.image("ev-car-factory.jpg", use_container_width=True)
 
-st.title("🔮 EV Adoption Forecaster for a County in Washington State")
+# Instruction line
 st.markdown("""
-Welcome to the Electric Vehicle (EV) Adoption Forecast tool.
-Select a **county** and see the forecasted EV adoption trend for the next **3 years**.
-""")
+    <div style='text-align: left; font-size: 22px; padding-top: 10px; color: #FFFFFF;'>
+        Select a county and see the forecasted EV adoption trend for the next 3 years.
+    </div>
+""", unsafe_allow_html=True)
+
 
 # === Load data (must contain historical values, features, etc.) ===
 @st.cache_data
