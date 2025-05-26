@@ -19,7 +19,7 @@ EV_Adoption_Forecasting is a machine learning-powered forecasting tool built to 
 
 ## 🧠 Model Info
 
-- Model Type: Random Forest (replace as needed)
+- Model Type: Random Forest
 - Evaluation Metric: R² score
 - Trained on 2017–2024 EV population data by county
 
