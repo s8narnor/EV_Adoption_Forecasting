@@ -1,4 +1,6 @@
 # ⚡ Forecasting EV Adoption in Washington State
+![ev-car-factory](https://github.com/user-attachments/assets/8f8bd550-dadd-4e56-8f01-c63017122936)
+[ImageLink](https://apacinsider.digital/wp-content/uploads/2024/07/Automated-robotics-and-futuristic-electric-cars-factory-production-line-showcased-in-wide-banners-featuring-production-and-efficiency-statistics-along-with-a-copy-space-area-1568x882.jpg)
 
 EV_Adoption_Forecasting is a machine learning-powered forecasting tool built to predict electric vehicle (EV) adoption trends across counties in Washington State. The app provides a 3-year forecast of cumulative EV registrations using historical data and trend-based features.
 
