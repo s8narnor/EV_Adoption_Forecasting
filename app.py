@@ -22,7 +22,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("🔮 EV Adoption Forecaster for a County in Washington State")
+st.title("🔮 Forecasting EV Adoption for Washington Counties")
 st.markdown("""
 Welcome to the Electric Vehicle (EV) Adoption Forecast tool.
 Select a **county** and see the forecasted EV adoption trend for the next **3 years**.
